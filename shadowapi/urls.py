@@ -22,4 +22,5 @@ urlpatterns = [
     path('signup/', views.register),
     path('data/', views.data),
     path('datas/', views.DataView.as_view()),
+    path('loginapi/', views.LoginView.as_view())
 ]
